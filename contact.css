@@ -24,3 +24,36 @@ a{
 a:hover{
     color: rgb(88, 88, 88)
 }
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(102, 101, 101);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize:vertical
+}
+
+input[type=submit] {
+    background-color: #292828;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(109, 106, 106);
+}
+
+.container{
+    
+    border-radius: 5px;
+    background-color: rgb(109, 106, 106);
+    padding: 20px;
+    margin: 20px;
+    
+}
